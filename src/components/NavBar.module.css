@@ -1,0 +1,48 @@
+
+.navbar {
+    width : 100%;
+    min-width: 900px;
+    max-width: 1400px;
+    height: 30px;
+    font-size: 22px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.navbar .links {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    
+}
+.navbar .links .logoFrame {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .links .logoFrame .bold {
+    font-weight: 800;
+}
+.navbar .links .logoFrame .light {
+    font-weight: 500;
+}
+
+.navbar .links .line {
+
+    border-left : 1px solid black;
+    height : 23px;
+    width: 1px;
+
+}
+
+.navbar .links .link {
+    font-weight: 600;
+}
+
+.navbar .button {
+
+}
