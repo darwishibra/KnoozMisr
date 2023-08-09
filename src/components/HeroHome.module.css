@@ -24,8 +24,8 @@
 
 .heroHome .mainSection .heading .headingText {
     color: #1e992f;
-    font-family: "League Spartan-Bold", Helvetica;
-    font-size: 76px;
+    font-family: "League Spartan", Helvetica;
+    font-size: 91px;
     font-weight: 700;
     left: 0;
     letter-spacing: 0;
@@ -35,21 +35,21 @@
 .heroHome .mainSection .heading .heroImage {
     position: absolute;
     height: auto;
-    left: 345px;
-    top: -57px
+    left: 360px;
+    top: -68px
 
 }
 .heroHome .mainSection .subHeading {
 
     color: #000000;
-    font-family: "Nunito-Bold", Helvetica;
+    font-family: "Nunito", Helvetica;
     font-size: 24px;
     font-weight: 700;
     left: 0;
     letter-spacing: 0;
     line-height: 35px;
     width: 593px;
-    padding-top: 28px;
+    padding-top: 20px;
 }
 .heroHome .mainSection .button {
 

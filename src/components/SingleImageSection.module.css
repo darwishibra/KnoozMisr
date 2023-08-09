@@ -21,20 +21,22 @@
     grid-column: 2;
     display: grid;
     grid-template-rows: 1fr 5fr;
-    gap: 35px;
+    gap: 28px;
+    bottom: 10px;
 }
 .section .container .text .heading {
     color: #000000;
-    font-family: "Nunito-Black", Helvetica;
+    font-family: "Nunito", Helvetica;
     font-size: 48px;
     font-weight: 900;
-    left: 0;
+
 }
 .section .container .text .paragraph {
     color: #ffffff;
-    font-family: "Nunito-ExtraBold", Helvetica;
+    font-family: "Nunito", Helvetica;
     font-size: 36px;
     font-weight: 800;
+    line-height: 45px;
     width: 100%;
 }
 

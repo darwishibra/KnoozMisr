@@ -1,0 +1,59 @@
+.BoxSection {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.BoxSection .textRight {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.BoxSection .textRight .imageLeft {
+    grid-column: 1;
+    height: 720px;
+    width: 720px;
+}
+.BoxSection .textRight .vision {
+    grid-column: 2;
+    background-color: #1E992F;
+    text-align: center;
+    height: 720px;
+    width: 720px;
+}
+.BoxSection .textRight .vision .visionTitle .visionText {
+    color: #ffffff;
+    font-family: "League Spartan", Helvetica;
+    font-size: 96px;
+    font-weight: 900;
+}
+.BoxSection .textRight .vision .visionSubheading {
+    color: #ffffff;
+    font-family: "Nunito", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+.BoxSection .textLeft {
+    display: grid;
+    gap: 0px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+
+}
+.BoxSection .textLeft .imageRight {
+    grid-column: 2;
+    width: 100%;
+
+
+}
+.BoxSection .textLeft .mission {
+    grid-column: 1;
+    background-color: #E79735;
+    text-align: center;
+    height: 720px;
+    width: 720px;
+    overflow-wrap: break-word;
+
+}

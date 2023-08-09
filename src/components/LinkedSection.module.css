@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    height: 710px;
+
 
 }
 .linkedSection .container {
@@ -55,7 +55,7 @@
     letter-spacing: 0;
     line-height: normal;
     width: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 35px;
 }
 
 .linkedSection .container .imageAndText .image {
