@@ -1,0 +1,25 @@
+.CTASection {
+    height: 564px;
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 1;
+}
+
+.CTASection .heading {
+    color: #1e992f;
+    font-family: "Nunito", Helvetica;
+    font-size: 56px;
+    font-weight: 900;
+    padding-top: 80px;
+}
+
+.CTASection .subheading {
+    color: #000000;
+    font-family: "Nunito", Helvetica;
+    font-size: 36px;
+    font-weight: 800;
+    padding: 40px 95px;
+}

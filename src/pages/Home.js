@@ -4,6 +4,7 @@ import HeroHome from '../components/HeroHome';
 import SingleImageSection from '../components/SingleImageSection';
 import LinkedSection from '../components/LinkedSection';
 import BoxSection from '../components/BoxSection';
+import CTASection from '../components/CTASection';
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <SingleImageSection />
       <LinkedSection />
       <BoxSection />
+      <CTASection />
     </div>
   )
 }
