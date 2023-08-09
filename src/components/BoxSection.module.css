@@ -2,19 +2,23 @@
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
-    margin-bottom: 630px;
-    height: 800px;
+
+
+
 }
 
 .BoxSection .textRight {
     display: grid;
     grid-template-columns: 50% 50%;
     position: relative;
+    overflow-x: hidden;
+    height: 724px;
 }
 .BoxSection .textRight .imageLeft {
     grid-column: 1;
     height: 720px;
     width: 720px;
+
 
 }
 .BoxSection .textRight .vision {
@@ -55,12 +59,13 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "mission imageRight";
     position: relative;
-
-
+    bottom: 5px;
+    overflow-x: hidden;
 }
 .BoxSection .textLeft .imageRight {
     grid-area: imageRight;
     width: 100%;
+    overflow-x: hidden;
     
 
 
@@ -71,7 +76,7 @@
     text-align: center;
     height: 720px;
     width: 720px;
-
+    overflow-x: hidden;
     z-index: -2;
     
 }

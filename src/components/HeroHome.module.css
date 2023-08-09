@@ -18,7 +18,7 @@
 .heroHome .mainSection .heading {
     height: 258px;
     width: 593px;
-
+    padding-left: 5%;
     position: relative;
 }
 
@@ -35,7 +35,7 @@
 .heroHome .mainSection .heading .heroImage {
     position: absolute;
     height: auto;
-    left: 360px;
+    left: 400px;
     top: -68px
 
 }
@@ -50,10 +50,12 @@
     line-height: 35px;
     width: 593px;
     padding-top: 20px;
+    padding-left: 5%;
 }
 .heroHome .mainSection .button {
 
     padding-top: 20px;
+    padding-left: 5%;
 }
 
 .heroHome .mainSection .mainSectionImage {

@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 59px;
+ 
 
 }
 
@@ -21,6 +22,7 @@
 .navbar .links .logoFrame {
     display: flex;
     align-items: center;
+    padding-left: 40px;
 }
 
 .navbar .links .logoFrame .bold {
