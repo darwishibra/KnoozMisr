@@ -1,22 +1,24 @@
 
 .heroHome {
-    width : 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 914px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 68% 42%;
+    grid-template-columns: 58% 42%; /* Adjusted the columns to add up to 100% */
 }
 
 .heroHome .mainSection {
     grid-column: 1;
     justify-self: center;
-
+    position: relative;
     width: 100%;
     padding-top: 200px;
 }
 .heroHome .mainSection .heading {
     height: 258px;
     width: 593px;
-    padding-left: 106px;
+
     position: relative;
 }
 
@@ -33,12 +35,12 @@
 .heroHome .mainSection .heading .heroImage {
     position: absolute;
     height: auto;
-    left: 443px;
+    left: 345px;
     top: -57px
 
 }
 .heroHome .mainSection .subHeading {
-    padding-left: 106px;
+
     color: #000000;
     font-family: "Nunito-Bold", Helvetica;
     font-size: 24px;
@@ -50,17 +52,18 @@
     padding-top: 28px;
 }
 .heroHome .mainSection .button {
-    padding-left: 106px;
+
     padding-top: 20px;
 }
 
 .heroHome .mainSection .mainSectionImage {
-    justify-self: end;
+
     position: absolute;
-    left: 46%;
+    right: 0; /* Adjust as needed */
     top: 588px;
-    z-index: -1;
+
 }
+
 
 .heroHome .sideBar {
     width: 100%;

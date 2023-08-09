@@ -25,7 +25,7 @@ export default function NavBar(props) {
                 <div className = {styles.link}>Our Service</div>
             </div>
             <div className='button'>
-                <Button text = "Contact us" backgroundColor = "#1E992F" />
+                <Button text = "Contact us" backgroundColor = "#1E992F" margin = "0px 40px" />
             </div>
         </div>
     )

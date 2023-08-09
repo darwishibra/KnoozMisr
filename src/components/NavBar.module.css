@@ -1,17 +1,14 @@
 
 .navbar {
-    width : 1440px;
-    min-width: 900px;
-    max-width: 1390px;
+    width: 100%;
+    max-width: 1440px;
     height: 30px;
     font-size: 22px;
     font-family: 'Nunito', sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    padding-left: 106px;
-    margin-top: 39px;
+    margin-top: 59px;
 
 }
 
@@ -45,6 +42,4 @@
     font-weight: 600;
 }
 
-.navbar .button {
 
-}
