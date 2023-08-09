@@ -1,0 +1,81 @@
+.footer {
+    height: 315px;
+    background-color: black;
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: 7fr 3fr 1fr;
+    gap: 75px;
+    padding: 54px 104px 71px 83px;
+}
+.footer .container .logoAndSocial {
+    grid-column: 1;
+    display: grid;
+    grid-template-rows: 114px 50px;
+    gap: 25px;
+
+}
+.footer .container .logoAndSocial .logo {
+    position: relative;
+    grid-row: 1;
+    display: grid;
+    grid-template-columns: 114px 523px;
+    align-items: center;
+    gap: 27px
+
+}
+.footer .container .logoAndSocial .logo .logoText {
+    grid-column: 2;
+    color: #ffffff;
+    font-family: "League Spartan", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.footer .container .logoAndSocial .logo .logoText .bold{
+    font-weight: 800;
+}
+.footer .container .logoAndSocial .socials {
+    grid-row: 2;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 86px;
+    justify-self: center;
+}
+.footer .container .contactList {
+    grid-column: 2;
+}
+.footer .container .contactList .contactHeading {
+    color: #ffffff;
+    font-family: "League Spartan", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer .container .contactList .contact {
+    color: #ffffff;
+    font-family: "League Spartan", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.footer .container .siteLinks {
+    grid-column: 3;
+}
+
+.footer .container .siteLinks .siteLinksHeading {
+    color: #ffffff;
+    font-family: "League Spartan", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer .container .siteLinks .link {
+    color: #ffffff;
+    font-family: "League Spartan", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 23px;
+}

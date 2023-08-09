@@ -5,6 +5,7 @@ import SingleImageSection from '../components/SingleImageSection';
 import LinkedSection from '../components/LinkedSection';
 import BoxSection from '../components/BoxSection';
 import CTASection from '../components/CTASection';
+import Footer from '../components/Footer';
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <LinkedSection />
       <BoxSection />
       <CTASection />
+      <Footer />
     </div>
   )
 }
