@@ -1,0 +1,41 @@
+
+.section {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 562px;
+    background-color: #E79735;
+    
+}
+.section .container {
+    gap: 100px;
+    display: grid;
+    grid-template-columns: 260ox 882px;
+    padding: 100px;
+}
+.section .container .image {
+    grid-column: 1;
+}
+
+.section .container .text {
+    grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    gap: 35px;
+}
+.section .container .text .heading {
+    color: #000000;
+    font-family: "Nunito-Black", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 0;
+}
+.section .container .text .paragraph {
+    color: #ffffff;
+    font-family: "Nunito-ExtraBold", Helvetica;
+    font-size: 36px;
+    font-weight: 800;
+    width: 100%;
+}
+
+

@@ -1,6 +1,7 @@
 import styles from './Home.module.css';
 import NavBar from '../components/NavBar';
-import HeroHome from '../components/HeroHome'
+import HeroHome from '../components/HeroHome';
+import SingleImageSection from '../components/SingleImageSection';
 
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
     <div className = {styles.home}>
       <NavBar position = "absolute"/>
       <HeroHome />
+      <SingleImageSection />
+      
     </div>
   )
 }
