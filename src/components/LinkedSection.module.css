@@ -1,0 +1,64 @@
+.linkedSection {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 710px;
+
+}
+.linkedSection .container {
+    display: grid;
+    grid-template-rows: 100px 250px;
+    gap: 50px;
+    padding: 100px;
+}
+
+.linkedSection .container .title {
+    grid-row: 1;
+}
+.linkedSection .container .title .titleText {
+    font-family: "Nunito", Helvetica;
+    font-size: 48px;
+    font-weight: 900;
+    left: 0;
+    text-align: center;
+}
+.linkedSection .container .title .titleText .orangeText {
+    color: #E79735;
+}
+.linkedSection .container .title .titleText .greenText {
+    color: #1E992F;
+}
+
+.linkedSection .container .title .line {
+    margin-top: 34px;
+    border: none;
+    border-top: 1px solid #1E992F;
+}
+
+
+.linkedSection .container .imageAndText {
+    grid-row: 2;
+    display: grid;
+    grid-template-columns: 805px 390px;
+    gap: 45px;
+    width: 100%;
+}
+.linkedSection .container .imageAndText .textAndButton {
+    grid-column: 1;
+}
+.linkedSection .container .imageAndText .textAndButton .subheading {
+    color: #000000;
+    font-family: "Nunito", Helvetica;
+    font-size: 36px;
+    font-weight: 800;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.linkedSection .container .imageAndText .image {
+    grid-column: 2;
+}
+
