@@ -1,6 +1,6 @@
 import styles from './HeroHome.module.css';
 import heroImage from '../images/heroheading.png'
-import Button from './Button';
+import Button from '../Button';
 import mainSectionImage from '../images/mainSection.png'
 import image1 from '../images/image1.png';
 import image2 from '../images/image2.png';

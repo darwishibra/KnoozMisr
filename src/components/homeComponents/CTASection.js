@@ -1,6 +1,6 @@
 
 import styles from './CTASection.module.css';
-import Button from './Button';
+import Button from '../Button';
 
 export default function CTASection() {
   return (

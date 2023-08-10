@@ -1,0 +1,37 @@
+
+.heroProducts {
+    margin-top: 40px;
+
+}
+
+.heroProducts .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2.8%;
+}
+
+.heroProducts .container .heroText .heading {
+    color: #1e992f;
+    font-family: "League Spartan", Helvetica;
+    font-size: 91px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position : relative;
+    width: 800px;
+}
+
+.heroProducts .container .heroText .subheading {
+    color: #000000;
+    font-family: "Nunito", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 35px;
+
+    padding-top: 20px;
+}

@@ -1,11 +1,12 @@
 import styles from './NavBar.module.css';
-import logo from '../images/Logo.png';
+import logo from './images/Logo.png';
 import Button from './Button.js';
 
 
 export default function NavBar(props) {
 
     const position = props.position;
+    const buttonColor = props.buttonColor;
     
     const myStyle = {
         position : position,
@@ -25,7 +26,7 @@ export default function NavBar(props) {
                 <div className = {styles.link}>Our Service</div>
             </div>
             <div className='button'>
-                <Button text = "Contact us" backgroundColor = "#1E992F" margin = "0px 40px" />
+                <Button text = "Contact us" backgroundColor = {buttonColor} margin = "0px 40px" />
             </div>
         </div>
     )

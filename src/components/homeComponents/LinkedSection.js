@@ -1,6 +1,6 @@
 import styles from './LinkedSection.module.css';
 import image from '../images/LinkedSection.png';
-import Button from './Button';
+import Button from '../Button';
 
 export default function LinkedSection() {
   return (
