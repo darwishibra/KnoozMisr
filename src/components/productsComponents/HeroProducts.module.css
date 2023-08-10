@@ -32,6 +32,13 @@
     left: 0;
     letter-spacing: 0;
     line-height: 35px;
-
     padding-top: 20px;
+}
+
+.heroProducts .line {
+    margin-top: 34px;
+    border: none;
+    border-top: 1px solid #1E992F;
+    margin: 2.8%;
+    margin-bottom: 6%;
 }

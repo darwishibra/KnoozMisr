@@ -17,6 +17,7 @@ export default function HeroProducts() {
               <img src = {HeroImage} alt = "Fruits and vegetables" />
             </div>
         </div>
+        <hr className = {styles.line} />
         
     </div>
   )
