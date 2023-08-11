@@ -12,7 +12,7 @@ export default function Button(props) {
     const mystyle = { 
         border : border,
         backgroundColor : backgroundColor,
-        margin : margin,
+        margin : margin
 
 
     }
