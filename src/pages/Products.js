@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar';
 import HeroProducts from '../components/productsComponents/HeroProducts';
 import styles from './Products.module.css';
 import ProductCards from '../components/productsComponents/ProductCards';
+import Footer from '../components/Footer';
 
 
 export default function Products() {
@@ -10,7 +11,7 @@ export default function Products() {
         <NavBar />
         <HeroProducts />
         <ProductCards />
-
+        <Footer />
     </div>
   )
 }
