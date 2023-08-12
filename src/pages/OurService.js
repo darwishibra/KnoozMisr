@@ -3,6 +3,8 @@ import styles from './OurService.module.css';
 import HeroOurService from '../components/ourServiceComponents/HeroOurService';
 import QualitySection from '../components/ourServiceComponents/QualitySection';
 import DeliverySection from '../components/ourServiceComponents/DeliverySection';
+import ExportSection from '../components/ourServiceComponents/ExportSection';
+import Footer from '../components/Footer';
 
 export default function OurService() {
   return (
@@ -11,6 +13,8 @@ export default function OurService() {
         <HeroOurService />
         <QualitySection />
         <DeliverySection />
+        <ExportSection />
+        <Footer />
     </div>
   )
 }

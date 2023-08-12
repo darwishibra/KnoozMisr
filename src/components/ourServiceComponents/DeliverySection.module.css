@@ -1,3 +1,7 @@
+.deliverySection {
+    margin-top: 10vh;
+}
+
 .deliverySection .container {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -8,6 +12,7 @@
     grid-area: text;
     background-color: #E79735;
     padding: 5%;
+    border-radius: 50px;
 }
 
 .deliverySection .container .text .title {

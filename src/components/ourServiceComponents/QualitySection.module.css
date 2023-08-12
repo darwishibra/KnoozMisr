@@ -7,7 +7,8 @@
 }
 .qualitySection .container .text {
     background-color: #1E992F;
-    padding: 5%
+    padding: 5%;
+    border-radius: 50px;
 
 }
 .qualitySection .container .text .title {

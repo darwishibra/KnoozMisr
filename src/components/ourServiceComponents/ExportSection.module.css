@@ -1,0 +1,32 @@
+.exportSection {
+    margin-top: 10vh;
+}
+
+.exportSection .heading {
+    font-family: "League Spartan", Helvetica;
+    font-size: 64px;
+    line-height: 30px;
+    padding-left: 7%;
+    margin: 0;
+    font-weight: 800;
+    color :#1E992F;
+}
+.exportSection .text {
+    background-color: #1E992F;
+    border-radius: 40px;
+    font-family: "League Spartan", Helvetica;
+    color: #ffffff;
+    font-size: 38px;
+    text-align: center;
+    padding: 2%;
+    font-weight: 600;
+}
+
+
+.exportSection .imageContainer {
+    padding: 5%;
+}
+
+.exportSection .imageContainer .image {
+    width: 100%;
+}
