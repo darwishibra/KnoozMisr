@@ -1,0 +1,46 @@
+
+.qualitySection .container {
+    display: grid;
+    grid-template-columns: 50% 47%;
+    gap: 3%;
+    margin-top: 5vh;
+}
+.qualitySection .container .text {
+    background-color: #1E992F;
+    padding: 5%
+
+}
+.qualitySection .container .text .title {
+    text-align: center;
+    color : #ffde00;
+    font-family: "League Spartan", Helvetica;
+    font-size: 64px;
+    padding: 6% 0% 10% 0%;
+
+    font-weight: 900;
+}
+.qualitySection .container .text .heading {
+    color : #ffde00;
+    font-family: "League Spartan", Helvetica;
+    font-size: 52px;
+    font-weight: 600;
+
+}
+.qualitySection .container .text .paragraph {
+    font-family: "Nunito", Helvetica;
+    color: #ffffff;
+    font-size: 32px;
+    padding: 6% 1%;
+    font-weight: 700;
+}
+
+.qualitySection .container .imageContainer {
+
+    max-width: 100%;
+    padding-top: 12%;
+
+}
+.qualitySection .container .imageContainer .image {
+    width: 100%;
+
+}

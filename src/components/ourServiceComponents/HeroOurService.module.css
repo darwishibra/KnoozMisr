@@ -1,0 +1,30 @@
+
+.heroOurService {
+    margin-top: 40px;
+}
+
+.heroOurService .container {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5%;
+}
+
+.heroOurService .container .heading {
+    color: #E79735;
+    font-family: "League Spartan", Helvetica;
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.heroOurService .container .subheading {
+    color: #000000;
+    font-family: "Nunito", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+
+
