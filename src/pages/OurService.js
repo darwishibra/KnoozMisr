@@ -2,6 +2,7 @@ import NavBar from '../components/NavBar';
 import styles from './OurService.module.css';
 import HeroOurService from '../components/ourServiceComponents/HeroOurService';
 import QualitySection from '../components/ourServiceComponents/QualitySection';
+import DeliverySection from '../components/ourServiceComponents/DeliverySection';
 
 export default function OurService() {
   return (
@@ -9,6 +10,7 @@ export default function OurService() {
         <NavBar position = "relative" buttonColor = "#ffffff" />
         <HeroOurService />
         <QualitySection />
+        <DeliverySection />
     </div>
   )
 }

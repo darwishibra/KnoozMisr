@@ -1,0 +1,41 @@
+.deliverySection .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "image text";
+}
+
+.deliverySection .container .text {
+    grid-area: text;
+    background-color: #E79735;
+    padding: 5%;
+}
+
+.deliverySection .container .text .title {
+    text-align: center;
+    color : #000000;
+    font-family: "League Spartan", Helvetica;
+    font-size: 64px;
+    padding: 6% 0% 10% 0%;
+
+    font-weight: 900;
+}
+.deliverySection .container .text .paragraph {
+    font-family: "Nunito", Helvetica;
+    color: #000000;
+    font-size: 32px;
+    padding: 6% 1%;
+    font-weight: 800;
+}
+
+.deliverySection .container .imageContainer {
+    grid-area: image;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.deliverySection .container .imageContainer .image {
+    width: 100%;
+}
