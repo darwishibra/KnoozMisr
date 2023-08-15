@@ -1,0 +1,51 @@
+.sendMessageSection {
+    background-color: #1E992F;
+    padding: 5% 15%;
+
+}
+.sendMessageSection .heading {
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 8%;
+    font-family: "League Spartan", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+}
+.sendMessageSection .form {
+    width: 100%;
+
+}
+.sendMessageSection .form .label {
+    font-family: "Nunito", Helvetica;
+    font-weight: 800;
+    font-size: 32px;
+}
+.sendMessageSection .form .input{
+    margin: 1% 0% 5% 0%;
+    width: 100%;
+    font-family: "Nunito", Helvetica;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+}
+.sendMessageSection .form .textarea {
+    margin: 1% 0% 5% 0%;
+    width: 100%;
+    font-family: "Nunito", Helvetica;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2%;
+}
+.sendMessageSection .form .submit {
+    background-color: #E79735;
+    padding: 3% 0%;
+    width: 28%;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-family: "League Spartan", Helvetica;
+    font-size: 28px;
+    font-weight: 700;
+}
+

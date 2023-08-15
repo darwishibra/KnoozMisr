@@ -35,7 +35,7 @@ import molokhia from '../images/cardImages/molokhia.png';
 export default function ProductCards() {
   return (
     <div className = {styles.productCards}>
-        <Card text = "POME<div>GRANATE</div>" image = {pomegranate} dates = "AUG to NOV" radius = "26px" background = "#a90000" shadow = "13px 13px 26px #820000, -13px -13px 26px #d00000"/>
+        <Card text = "POME<br>GRANATE" image = {pomegranate} dates = "AUG to NOV" radius = "26px" background = "#a90000" shadow = "13px 13px 26px #820000, -13px -13px 26px #d00000"/>
 
         <Card text = "FIGS" image = {fig} dates = "JUL to SEPT" radius = "26px" background = "#752a41" shadow = "13px 13px 26px #5a2032, -13px -13px 26px #903450"/>
 

@@ -19,7 +19,7 @@ export default function HeroHome() {
           </div>
           <div className = {styles.subHeading}>We provide our partners with the highest quality products all year-round, from the most modern state-of-the-art processing plants.  </div>
           <div className = {styles.button}>
-            <Button text = "Get in Touch" border = "none" backgroundColor = "#E79735" />
+            <Button to = "/contactus" text = "Get in Touch" border = "none" backgroundColor = "#E79735" />
           </div>
           <img src = {mainSectionImage} alt = "main section image" className = {styles.mainSectionImage} />
         </div>

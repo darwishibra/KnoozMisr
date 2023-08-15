@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 59px;
+    z-index: 5;
  
 
 }
@@ -42,6 +43,10 @@
 
 .navbar .links .link {
     font-weight: 600;
+    text-decoration: none;
+    color: inherit;
 }
 
-
+.link:hover {
+    font-weight: 800 !important;
+}

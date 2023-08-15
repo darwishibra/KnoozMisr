@@ -1,0 +1,24 @@
+.reachUsSection {
+    padding: 5% 10%;
+}
+.reachUsSection .heading {
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 8%;
+    font-family: "League Spartan", Helvetica;
+    font-size: 48px;
+    font-weight: 800;
+}
+.reachUsSection .text {
+    font-family: "Nunito", Helvetica;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 2% 0%;
+}
+.reachUsSection .text .bold {
+    font-weight: 800;
+}
+.reachUsSection .map {
+    border: 0;
+
+}

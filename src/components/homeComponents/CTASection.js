@@ -12,7 +12,7 @@ export default function CTASection() {
         Our utmost priority is to insure the best flavour and maximum nutritional value of our products. Reach out and let us build a fruitful partnership together! 
         </div>
         <div className = {styles.button}>
-            <Button text = "Contact Us" background-color = "#FFFFFF"/>
+            <Button to = "/contactus" text = "Contact Us" background-color = "#FFFFFF"/>
         </div>
     </div>
   )

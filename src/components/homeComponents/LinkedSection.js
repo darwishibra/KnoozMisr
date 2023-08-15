@@ -16,7 +16,7 @@ export default function LinkedSection() {
             <div className = {styles.imageAndText}>
                 <div className = {styles.textAndButton}>
                     <div className = {styles.subheading}>Our products portfolio is fully dedicated to the export markets adhering to all regional and global quality standards and specifics.</div> 
-                    <Button text = "Products" backgroundcolor = "white" />
+                    <Button to = "/products" text = "Products" backgroundcolor = "white" />
                 </div>
                 <div className = {styles.image}>
                     <img src = {image} alt = "Varity of fruits and vegetables" />

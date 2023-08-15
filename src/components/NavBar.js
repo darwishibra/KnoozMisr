@@ -1,6 +1,7 @@
 import styles from './NavBar.module.css';
 import logo from './images/Logo.png';
 import Button from './Button.js';
+import { Link } from 'react-router-dom';
 
 
 export default function NavBar(props) {
@@ -21,12 +22,18 @@ export default function NavBar(props) {
                     <div className = {styles.bold}>KNOUZ</div><div className = {styles.light}>MISR</div>
                 </div>
                 <div className = {styles.line}></div>
-                <div className = {styles.link}>Home</div>
-                <div className = {styles.link}>Products</div>
-                <div className = {styles.link}>Our Service</div>
+                <Link to = "/" className = {styles.link}>
+                    Home
+                </Link>
+                <Link to = "/products" className = {styles.link}>
+                    Products
+                </Link>
+                <Link to = "/ourservice" className = {styles.link}>
+                    Our Service
+                </Link>
             </div>
             <div className='button'>
-                <Button text = "Contact us" backgroundColor = {buttonColor} margin = "0px 40px" />
+                <Button to = "/contactus" text = "Contact us" backgroundColor = {buttonColor} margin = "0px 40px" />
             </div>
         </div>
     )
