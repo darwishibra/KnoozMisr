@@ -7,7 +7,7 @@ import ContactUs from './pages/ContactUs';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename = "/KnoozMisr">
         <Routes>
           <Route index element = {<Home />} />
           <Route path = "/" element = {<Home />} />
